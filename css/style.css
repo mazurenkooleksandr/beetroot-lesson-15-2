@@ -26,7 +26,7 @@ body {
     text-transform: uppercase;
     letter-spacing: 8.62px;
     line-height: 40px;
-    padding-top: 180px;
+    padding-top: 130px;
     margin: 0 auto;
 }
 
@@ -302,6 +302,10 @@ body {
     text-align: center;
     margin-top: 30px;
     margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 
 .button-six-container:after { 
@@ -325,6 +329,16 @@ body {
 
 img:hover {
     opacity: 0.6;
+}
+
+.logo-first-container {
+    position: relative;
+    top: 100px;
+    left: 450px;
+}
+
+.logo-seven-container {
+    padding-right: 10px;
 }
   
 
