@@ -1,6 +1,7 @@
 * {
     padding: 0;
     margin: 0;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -26,8 +27,7 @@ body {
     letter-spacing: 8.62px;
     line-height: 40px;
     padding-top: 180px;
-    padding-left: 255px;
-
+    margin: 0 auto;
 }
 
 .text-first-section {
@@ -41,12 +41,12 @@ body {
     text-transform: uppercase;
     letter-spacing: 0.9px;
     padding-top: 70px;
-    padding-left: 288px;
+    margin: 0 auto;
 }
 
 .image-first-section {
     padding-top: 110px;
-    padding-left: 460px;
+    padding-left: 480px;
 }
 
 .second-container {
@@ -184,70 +184,152 @@ body {
     padding-left: 170px;
 }
 
-.fifth-container {
-    width: 960px;
-    height: 840px;
-    margin: 150px auto;
-    
-}
-
-.picture-text {
+.fifth-container > div > p {
     color: #ffffff;
     font-size: 16px;
     font-weight: 700;
     text-align: left;
     text-transform: uppercase;  
     letter-spacing: 3.95px;
-    padding-top: 80px;
-    padding-left: 20px;
+    position: relative;
+    top: -50px;
+    left: 20px;
 }
 
-.first-fifth-container {
-    width: 100%;
-    max-width: 270px;
-    height: 290px;
-    background: url("../img/Layer\ 5\ copy.png") no-repeat;
-    background-size: contain;
-    margin-right: 5px;
+.fifth-container {
+    width: 960px;
+    height: 340px;
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:
+      "grid-container-first grid-container-second grid-container-third"
+      "grid-container-fourth grid-container-fifth grid-container-sixth";
+}
+  
+.grid-container-first { 
+    grid-area: grid-container-first; 
+}
+  
+.grid-container-second { 
+    grid-area: grid-container-second; 
+    margin-left: 10px;
+}
+  
+.grid-container-third { 
+    grid-area: grid-container-third; 
+    margin-left: 10px;
+}
+  
+.grid-container-fourth { 
+    grid-area: grid-container-fourth; 
+    margin-top: -15px;
+}
+  
+.grid-container-fifth { 
+    grid-area: grid-container-fifth; 
+    margin-top: -15px;
+    margin-left: 10px;
+}
+  
+.grid-container-sixth { 
+    grid-area: grid-container-sixth; 
+    margin-top: -15px;
+    margin-left: 10px;
 }
 
-.second-fifth-container {
-    height: 100%;
-    width: 460px;
-    max-height: 390px;
-    background: url("../img/Layer\ 5\ copy\ 3.png") no-repeat;
-    background-size: contain;
-    margin-right: 5px;
+.six-container {
+    width: 960px;
+    height: 306px;
+    margin: 0px auto;
 }
 
-.third-fifth-container {
-    width: 270px;
-    height: 240px;
-    background: url("../img/Layer\ 5\ copy.png") no-repeat;
-    background-size: contain;
+.fieldset-six-container {
+    width: 450px;
+    height: 285px;
+    margin: 70px auto;
 }
 
-.fourth-fifth-container {
+.fieldset-six-container > legend {
+    text-align: center;
+    padding-left: 55px;
+    padding-right: 55px;
+    color: #3c3c3c;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 8.95px;
+}
+
+.fieldset-six-container > p {
+    width: 400px;
+    height: 106px;
+    color: #3c3c3c;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 24px;
+    text-align: center;
+    padding: 54px 104px 0px 104px;
+}
+
+.button-six-container {
+    width: 255px;
+    height: 28px;
+    border: 2px solid #3c3c3c;
+    background-color: #3c3c3c;
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 15px;
+    position: relative;
+    bottom: 160px;
+    margin: 0 auto;
+    cursor:pointer;
+    margin-top: 30px;
+    position: relative; 
+    transition: all 400ms ease-out; 
+    transform-style: preserve-3d;
+}
+
+#seven-container {
+    color: #3c3c3c;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.button-six-container:after { 
+    content: 'CONTACT US'; 
+    position: absolute; 
+    top: -50%;
+    left: 0px;
+    width: 100%; 
+    width: 255px;
+    height: 28px;
+    padding-top: 15px;
+    background: gray;
+    transform-origin: bottom; 
+    transform: rotateX(90deg); 
+}
     
-    background: url("../img/Layer\ 5\ copy.png") no-repeat;
-    background-size: contain;
+.button-six-container:hover { 
+    transform-origin: bottom; 
+    transform: rotateX(-90deg); 
 }
 
-.fifth-fifth-container {
-    
-    background: url("../img/Layer\ 5\ copy\ 4.png") no-repeat;
-    background-size: contain;
+img:hover {
+    opacity: 0.6;
 }
+  
 
-.sixth-fifth-container {
-    
-    background: url("../img/Layer\ 5\ copy.png") no-repeat;
-    background-size: contain;
-}
 
-.sss{
-    display: flex;
-}
+
 
 
 
