@@ -1,0 +1,256 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.first-container {
+    width: 960px;
+    height: 536px;
+    background: url("../img/hero-bg.png") no-repeat;
+    background-size: contain;
+    margin: 0 auto;
+}
+
+.header-first-section {
+    width: 395px;
+    height: 51px;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 8.62px;
+    line-height: 40px;
+    padding-top: 180px;
+    padding-left: 255px;
+
+}
+
+.text-first-section {
+    width: 330px;
+    height: 55px;
+    color: #ffffff;
+    font-size: 7.5px;
+    font-weight: 400;
+    line-height: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.9px;
+    padding-top: 70px;
+    padding-left: 288px;
+}
+
+.image-first-section {
+    padding-top: 110px;
+    padding-left: 460px;
+}
+
+.second-container {
+    width: 960px;
+    height: 306px;
+    margin: 0 auto;
+}
+
+.fieldset-second-container {
+    width: 450px;
+    height: 305px;
+    margin: 130px auto;
+}
+
+.fieldset-second-container > legend {
+    text-align: center;
+    padding-left: 55px;
+    padding-right: 55px;
+    color: #3c3c3c;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 8.95px;
+}
+
+.fieldset-second-container > p {
+    width: 400px;
+    height: 106px;
+    color: #3c3c3c;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 24px;
+    text-align: center;
+    padding: 54px 104px 80px 104px;
+}
+
+.third-container {
+    width: 960px;
+    height: 244px;
+    background: url("../img/services.png") no-repeat;
+    background-size: contain;
+    margin: 0 auto;
+}
+
+.fieldset-third-container {
+    width: 450px;
+    height: 190px;
+    margin: 130px auto;
+    border: 2px solid #fff;
+    position: relative;
+    top: 30px;
+}
+
+.fieldset-third-container > legend {
+    text-align: center;
+    padding-left: 55px;
+    padding-right: 55px;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 8.95px;
+}
+
+.fieldset-third-container > p {
+    width: 400px;
+    height: 16px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 24px;
+    text-align: center;
+    padding: 12px 104px 26px 104px;
+}
+
+.fourth-container {
+    width: 960px;
+    height: 710px;
+    margin: 0 auto;
+}
+
+.fieldset-fourth-container {
+    width: 450px;
+    height: 790px;
+    margin: 100px auto;
+}
+
+.fieldset-fourth-container > legend {
+    text-align: center;
+    padding-left: 55px;
+    padding-right: 55px;
+    color: #3c3c3c;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 8.95px;
+}
+
+.image-fourth-container {
+    padding-left: 290px;
+    margin-top: 50px;
+}
+
+.h2-fourth-container {
+    width: 587px;
+    height: 16px;
+    color: #3c3c3c;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 5.26px;
+    box-sizing: border-box;
+    margin: 20px 0;
+}
+
+.text-fourth-container {
+    width: 470px;
+    height: 106px;
+    color: #3c3c3c;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 24px;
+    padding: 0 69px;
+    text-align: center;
+}
+
+.first {
+    padding-left: 265px;
+}
+
+.second {
+    padding-left: 228px;
+}
+
+.third {
+    padding-left: 170px;
+}
+
+.fifth-container {
+    width: 960px;
+    height: 840px;
+    margin: 150px auto;
+    
+}
+
+.picture-text {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: left;
+    text-transform: uppercase;  
+    letter-spacing: 3.95px;
+    padding-top: 80px;
+    padding-left: 20px;
+}
+
+.first-fifth-container {
+    width: 100%;
+    max-width: 270px;
+    height: 290px;
+    background: url("../img/Layer\ 5\ copy.png") no-repeat;
+    background-size: contain;
+    margin-right: 5px;
+}
+
+.second-fifth-container {
+    height: 100%;
+    width: 460px;
+    max-height: 390px;
+    background: url("../img/Layer\ 5\ copy\ 3.png") no-repeat;
+    background-size: contain;
+    margin-right: 5px;
+}
+
+.third-fifth-container {
+    width: 270px;
+    height: 240px;
+    background: url("../img/Layer\ 5\ copy.png") no-repeat;
+    background-size: contain;
+}
+
+.fourth-fifth-container {
+    
+    background: url("../img/Layer\ 5\ copy.png") no-repeat;
+    background-size: contain;
+}
+
+.fifth-fifth-container {
+    
+    background: url("../img/Layer\ 5\ copy\ 4.png") no-repeat;
+    background-size: contain;
+}
+
+.sixth-fifth-container {
+    
+    background: url("../img/Layer\ 5\ copy.png") no-repeat;
+    background-size: contain;
+}
+
+.sss{
+    display: flex;
+}
+
+
+
+
+
+
