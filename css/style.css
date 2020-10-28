@@ -279,19 +279,17 @@ body {
 .button-six-container {
     width: 255px;
     height: 28px;
-    border: 2px solid #3c3c3c;
     background-color: #3c3c3c;
     color: #fff;
     font-size: 12px;
     text-align: center;
     padding-top: 15px;
+    padding-left: 10px;
     position: relative;
     bottom: 160px;
     margin: 0 auto;
-    cursor:pointer;
-    margin-top: 30px;
-    position: relative; 
-    transition: all 400ms ease-out; 
+    cursor:pointer; 
+    transition: all 600ms ease-out; 
     transform-style: preserve-3d;
 }
 
@@ -311,20 +309,24 @@ body {
 .button-six-container:after { 
     content: 'CONTACT US'; 
     position: absolute; 
-    top: -50%;
+    top: 0px;
     left: 0px;
-    width: 100%; 
     width: 255px;
     height: 28px;
+    font-size: 12px;
+    text-align: center;
     padding-top: 15px;
+    padding-left: 10px;
     background: gray;
     transform-origin: bottom; 
-    transform: rotateX(90deg); 
+    transform: translateY(0%) rotateX(90deg);
+    
 }
     
 .button-six-container:hover { 
     transform-origin: bottom; 
-    transform: rotateX(-90deg); 
+    transform: translateY(0%) rotateX(-90deg);
+    
 }
 
 img:hover {
